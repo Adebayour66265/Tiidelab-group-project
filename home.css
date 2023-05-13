@@ -18,7 +18,8 @@ header {
   background: #fff;
 }
 header.shadow {
-  box-shadow: 3px 3px 3px #333;
+  background: #f1f1f1;
+  box-shadow: 1px 1px 3px #333;
 }
 .search-icon-sec {
   display: none;
@@ -50,6 +51,10 @@ header.shadow {
 .logo {
   width: 60px;
 }
+.logo img {
+  width: 100%;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -92,23 +97,21 @@ li {
 }
 /* container */
 
-.container {
+.about-details {
+  background: url("/photo-1606857521015-7f9fcf423740.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
-}
-.about {
-  width: 100%;
-}
-.about img {
-  width: 100%;
-  height: 85vh;
+  height: 80vh;
+  text-align: center;
 }
 
-.about h1 {
-  position: absolute;
-  top: 13rem;
+.about-details h1 {
+  top: 8rem;
+  text-align: center;
   font-size: 3rem;
-  color: #fff;
-  left: 38rem;
+  color: #5f1212;
 }
 
 .footer {
@@ -147,7 +150,7 @@ li {
   }
   .navbar ul li a {
     padding: 8px 10px;
-    color: #333;
+    color: #fff;
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -193,41 +196,40 @@ li {
   }
   .navbar a {
     padding: 8px 10px;
-    color: #333;
+    color: #fff;
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none;
     margin: 1rem 0;
   }
-
+  .join button {
+    border: 2px solid #fff;
+    color: #fff;
+  }
   .navbar.active {
     top: 100%;
     transition: 0.3s ease-out;
   }
-
   .container {
     width: 100%;
+    text-align: center;
   }
-  .about {
+  .about-details {
+    background: url("/photo-1606857521015-7f9fcf423740.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
+    height: 50vh;
+    text-align: center;
   }
-  .about img {
-    height: 45vh;
-  }
-
-  .about h1 {
-    top: 9rem;
+  .about-details h1 {
+    background-color: #5555;
     font-size: 1.5rem;
-    color: #999;
     text-align: center;
     align-items: center;
     justify-content: center;
-    left: 8rem;
-    margin: 0;
-  }
-  hr {
-    border: 2px solid #999;
   }
   .footer {
     display: grid;

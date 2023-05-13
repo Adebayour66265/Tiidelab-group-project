@@ -1,0 +1,61 @@
+.wrapper-search {
+  width: 40%;
+  height: 40vh;
+  margin: 1rem auto;
+}
+.wrapper-search input {
+  width: 40%;
+  height: 7vh;
+  border: 2px solid #333;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+}
+.wrapper-search .uil {
+  background: #333;
+  font-size: 17px;
+  padding: 0.5em;
+  margin: 0;
+  color: #fff;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1rem;
+  margin: 2rem;
+}
+.layout {
+  width: 100%;
+}
+.layout img {
+  width: 70%;
+  height: 40vh;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-search {
+    width: 70%;
+    height: 40vh;
+    margin: 1rem auto;
+  }
+  .wrapper-search input {
+    width: 80%;
+    height: 7vh;
+    border: 2px solid #333;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .layout {
+    width: 100%;
+  }
+  .layout img {
+    width: 100%;
+    height: 40vh;
+  }
+}
