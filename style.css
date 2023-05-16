@@ -60,7 +60,7 @@
 }
 .layout .details {
   position: absolute;
-  width: 90%;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -72,9 +72,10 @@
   align-items: center;
   cursor: pointer;
   display: none;
+  color: #fff;
 }
 .layout:hover .details {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.555);
   display: block;
 }
 .layout .details h1 {
