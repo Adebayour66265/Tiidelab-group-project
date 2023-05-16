@@ -31,23 +31,29 @@ header.shadow {
   align-items: center;
   padding: 0;
   margin: 0;
+  /* width: 40%; */
+  /* height: 40px; */
 }
 .search {
-  /* padding: 1rem; */
-  /* margin: 0; */
+  margin: 0;
+  padding: 0;
+  border: 2px solid #333;
+  padding: 0.3rem 0 0.3rem 1rem;
+
+  /* width: 40%;
+  height: 40px; */
 }
 .logo-search input {
-  width: 50vh;
-  height: 40px;
   margin: 0;
-  padding: 1rem;
+  border: none;
 }
 .search .uil {
   background: #333;
   font-size: 17px;
-  padding: 0.5em;
+  padding: 0.3em 1rem;
   margin: 0;
   color: #fff;
+  height: 35px;
 }
 .logo {
   width: 60px;

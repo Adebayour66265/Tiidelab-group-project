@@ -24,13 +24,16 @@
   align-items: center;
   text-align: center;
   margin: 17rem auto;
+  background: none;
 }
 .new h1 {
   color: #fff;
 }
 .new hr {
   width: 100%;
-  border: 2px solid #fff;
+  height: 0.1rem;
+  background-color: #fff;
+  border: none;
 }
 .card {
   display: grid;
