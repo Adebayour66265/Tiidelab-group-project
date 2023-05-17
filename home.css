@@ -70,6 +70,9 @@ header.shadow {
 .navbar ul {
   display: flex;
 }
+.navbar ul li:hover a {
+  color: #ff8c00;
+}
 .navbar ul li a {
   padding: 8px 10px;
   color: #333;

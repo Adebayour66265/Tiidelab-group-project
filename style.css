@@ -1,20 +1,23 @@
 .wrapper-search {
   width: 40%;
-  height: 40vh;
+  height: 7vh;
   margin: 1rem auto;
+  /* border: 2px solid #333; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .wrapper-search input {
-  width: 40%;
+  width: 100%;
   height: 7vh;
-  border: 2px solid #333;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  padding: 0 1rem;
+  padding: 0.3rem 0 0.3rem 1rem;
 }
 .wrapper-search .uil {
   background: #333;
   font-size: 17px;
-  padding: 0.5em;
+  padding: 0.8rem 0.5rem;
   margin: 0;
   color: #fff;
 }
