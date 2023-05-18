@@ -43,9 +43,13 @@ header.shadow {
   /* width: 40%;
   height: 40px; */
 }
+.logo-search input:hover {
+  border: none;
+}
 .logo-search input {
   margin: 0;
   border: none;
+  padding: 0.5rem;
 }
 .search .uil {
   background: #333;
@@ -108,7 +112,7 @@ li {
 /* container */
 
 .about-details {
-  background: url("/photo-1606857521015-7f9fcf423740.jpeg");
+  background: url("/iimages/careers-categories-page-header-img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
